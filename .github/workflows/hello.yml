@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: Hello world
         run: echo "Hello world"
+      - name: date
+        run: date
+      - name: ls
+        run: ls -la
